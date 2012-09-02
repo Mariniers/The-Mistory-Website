@@ -377,17 +377,50 @@ table {
 
 
 /* ==========================================================================
-   Body
+   Html + Body
    ========================================================================== */
+html{
+	height:100%;
+}
+
 
 body{
   background-image: url("../img/background.jpg");
+  height: 100%;
+  min-width: 660px;
 }
 
 /* ==========================================================================
-   css personnalisé
+   divs d'encadrement
    ========================================================================== */
-   
+
+#global{
+	position : relative;
+	min-height: 100%;
+}
+
+#content{
+	position: relative;
+    min-height: 100%;
+	margin: 0 auto;
+	padding-bottom: 60px;/* valeur correspondant à la hauteur du footer */
+	
+}
+
+#footer{
+	height: 60px;
+	width: 100%;
+	background: gray;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	opacity: 0.5;
+}
+
+/* ==========================================================================
+   Les personnages
+   ========================================================================== */
+
 #personnages{
 	width: 100%;
 	text-align: center;
@@ -396,4 +429,5 @@ body{
 #personnages img{
 	vertical-align: bottom;
 }
+
 
