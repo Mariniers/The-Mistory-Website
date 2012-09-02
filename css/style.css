@@ -383,3 +383,17 @@ table {
 body{
   background-image: url("../img/background.jpg");
 }
+
+/* ==========================================================================
+   css personnalisé
+   ========================================================================== */
+   
+#personnages{
+	width: 100%;
+	text-align: center;
+}
+
+#personnages img{
+	vertical-align: bottom;
+}
+
